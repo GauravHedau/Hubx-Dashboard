@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dashboard-nav-button-hover-effect:hover {
+  border-bottom: 2px solid #64ddc7;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.background {
+  background-color: white;
+  opacity: 0.2;
+  background: repeating-linear-gradient(
+    -45deg,
+    #64ddc7,
+    #64ddc7 30.5px,
+    white 9.5px,
+    white 60.5px
+  );
+}
+
+.listStyle {
+  list-style-type: circle;
+}
+
+
